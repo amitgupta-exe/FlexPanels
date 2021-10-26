@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    color: aliceblue;
+}
+
+.panels{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+
+}
+
+.panel{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    background-size: cover;
+    align-items: center;
+}
+
+h1{
+    transition: all ease 1.5s;
+    transform: translateX(30px), translateY(30px);
+}
+
+.panel-1{
+    background-image:url("images/fox-image.jfif");
+}
+
+.panel-2{
+    background-image:url("images/nature-image-1.jpg");
+}
+
+.panel-3{
+    background-image:url("images/nature-image-2.jfif");
+}
+
+.panel-4{
+    background-image:url("images/nature-image-3.jfif");
+}
+
+.panel-5{
+    background-image:url("images/nature-image-4.jfif");
+}
+
+.panel-active{
+    
+}
